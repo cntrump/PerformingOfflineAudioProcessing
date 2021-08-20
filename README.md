@@ -15,8 +15,7 @@ You commonly use [AVAudioEngine](https://developer.apple.com/documentation/avfau
 
 You can also use AVAudioEngine to perform offline audio processing by enabling the engine’s offline manual rendering mode. In this mode, the engine’s input and output nodes are disconnected from the audio hardware and the rendering is driven by your app. You use offline manual rendering mode to perform advanced postprocessing tasks, such as applying effects or performing audio analysis, usually much faster than you can do in real time.
 
-![](https://docs-assets.developer.apple.com/published/710df24b00/d24e0cee-df17-42c5-8342-0f7d62712817.png![图片](https://user-images.githubusercontent.com/8279475/130172120-749105f2-12d5-46af-8e68-edf20890a8e2.png)
-)
+![](https://docs-assets.developer.apple.com/published/710df24b00/d24e0cee-df17-42c5-8342-0f7d62712817.png)
 
 This sample playground shows you how to enable the audio engine’s manual rendering mode and drive the rendering process from your app.
 
